@@ -43,6 +43,7 @@ console.log(piNumber);
 // Cu tipurile de date Number putem folosi operatii matematice
 
 // Operatori de date numerice
+// Operatori aritmetici
 // operatori= simboluri concepute pt a efectua operatii pe variabile si valori
 
 // Addition +
@@ -61,5 +62,11 @@ console.log(pastAge);
 console.log(`Acum ${years} ani aveam varsta de ${pastAge}`);
 console.log(`Acum ${years} ani aveam varsta de ${age - years}`);
 
+// Multiplication *
 
+let numberA = 5;
+let numberB = 23;
+let multiplication = numberA * numberB;
+console.log(multiplication);
+console.log(`Rezultatul inmultirii dintre ${numberA} si ${numberB} => ${multiplication}`);
 
