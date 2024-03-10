@@ -141,5 +141,12 @@ let separator = " ";
 let fullName = firstNamee + separator + secondName;
 console.log(`My fullname is ${fullName}`);
 
+let upperCaseName = fullName.toUpperCase();
+console.log(`My name in upper case is ${upperCaseName}`);
 
+let lowerCaseName = fullName.toLowerCase();
+console.log(`My name in lower case is ${lowerCaseName}`);
+
+let substringResult = fullName.substring (1, 5);
+console.log(substringResult);
 
