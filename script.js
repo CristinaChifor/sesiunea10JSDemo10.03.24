@@ -125,4 +125,21 @@ const myNameLenght = myName.length;
 console.log(`Lungimea sirului '${myName}'este ${myNameLenght}`);
 // se numara si spatiul dintre Cristina Chifor
 
+// Ultimul caracter din sir
+
+let lastCharIndex = myNameLenght - 1;
+let lastChar = myName[lastCharIndex];
+console.log(`Ultimul caracter din sir este ${lastChar}`);
+
+
+// Concatenare de stringuri
+
+let firstNamee = "Cristina";
+let secondName = "Chifor";
+let separator = " ";
+//let fullName = firstNamee + ' '+ secondName;
+let fullName = firstNamee + separator + secondName;
+console.log(`My fullname is ${fullName}`);
+
+
 
