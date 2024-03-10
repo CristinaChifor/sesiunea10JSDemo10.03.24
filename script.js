@@ -135,6 +135,7 @@ console.log(`Ultimul caracter din sir este ${lastChar}`);
 // Concatenare de stringuri
 
 let firstNamee = "Cristina";
+//let firstNamee = "Cristina".endsWith("a"); a inlocuit Cristina cu val booleana True
 let secondName = "Chifor";
 let separator = " ";
 //let fullName = firstNamee + ' '+ secondName;
@@ -180,5 +181,33 @@ let modulo = checkedNumber % 2;
 let isEven = modulo == 0;
 console.log(`Number ${checkedNumber} is even: ${isEven}`);
 
+// Date Booleane True/ False doua val adev sau fals
+// sunt utilizate pt evaluarea conditiilor si luarea deciziilor
+
+let isAdult = true;
+console.log(`Is adult = ${isAdult}`);
+
+let isOld = false;
+console.log(`Is old = ${isOld}`);
+
+// Date null sau undefined
+// marcheaza lipsa catre ref altei valori
+// putem avea val null doar daca este setata explicit
+
+let nullValue= null;
+console.log(`nullValue = ${nullValue}`);
+
+// nu avem setate date in varibila
+// am definit variabila dar nu am initializat-o. Rezultatul in consola este undefined
+let notInitialized;
+console.log(`notInitialized = ${notInitialized}`);
+
+// Adaugare + 1 la un numar (incrementare ++ a adaugar 1)
+
+let x2 = 10;
+console.log("x=", x2);
+
+x2++;
+console.log("x=", x2);
 
 
