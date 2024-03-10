@@ -35,7 +35,26 @@ console.log(firstName);
 console.log(`name:`);
 console.log(`My name is ${firstName}`);
 
+const piNumber = 3.14;
+console.log(piNumber);
+//piNumber = 4; nu se mai executa codul deoarece val atribuite in constante nu pot fi schimbate
+
 // Tipuri de date numerice: Number
 // Cu tipurile de date Number putem folosi operatii matematice
+
+// Operatori de date numerice
+// operatori= simboluri concepute pt a efectua operatii pe variabile si valori
+
+// Addition +
+// string interpolation = concept (`se trece text si ${}`); se fol pt a crea texte mai repezentative
+
+let firstNumber = 10;
+let secondNumber = 22;
+let sum = firstNumber + secondNumber;
+console.log(sum);
+console.log(`Rezultatul sumei dintre ${firstNumber} si ${secondNumber} este ${sum}`);
+
+
+
 
 
