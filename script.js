@@ -80,3 +80,11 @@ console.log(`Rezultatul impartirii lui ${numberC} la ${numberD} este egal cu ${d
 let division2 = numberD / numberC;
 console.log(division2);
 console.log(`Rezultatul impartirii lui ${numberD} la ${numberC} este egal cu ${division2}`);
+
+// Modulo % restul impartirii
+
+let numberE = 15;
+let numberF = 4;
+let moduloResult = numberE % numberF;
+console.log(moduloResult);
+console.log(`Restul impartirii lui ${numberE} la ${numberF} este ${moduloResult}`);
