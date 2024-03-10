@@ -173,5 +173,12 @@ w /= 2;
 console.log(w);
 // w = w / 2; w = 5 / 2 => 2.5
 
+// verificare numar par/ impar
+
+let checkedNumber = 23;
+let modulo = checkedNumber % 2;
+let isEven = modulo == 0;
+console.log(`Number ${checkedNumber} is even: ${isEven}`);
+
 
 
