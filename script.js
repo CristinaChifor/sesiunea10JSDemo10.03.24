@@ -102,3 +102,27 @@ console.log(Number.MIN_SAFE_INTEGER);
 
 let bigIntNumber = 123456789n;
 console.log(`BigInt value is ${bigIntNumber}`);
+
+// String Operations
+// string= un sir de caractere; lista de intrari intre ghilimele
+// fiecare caracter din string are asignata un index- indexul incepe de la 0
+// prima pozitie dintr-un sir de caractere este pozitia 0, 1, 2, 3 ... etc
+
+const myName = "Cristina Chifor";
+
+// afisarea unui caracter de la o anumita pozitie din string
+// primul caracter
+
+const firstCharInName= myName[0];
+console.log(`Primul caracter din sirul'${myName}' este ${firstCharInName}`);
+
+const secondCharInName= myName[1];
+console.log(`Al doilea caracter din sirul'${myName}' este ${secondCharInName}`);
+
+// lungimiea sirului
+
+const myNameLenght = myName.length;
+console.log(`Lungimea sirului '${myName}'este ${myNameLenght}`);
+// se numara si spatiul dintre Cristina Chifor
+
+
