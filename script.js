@@ -150,3 +150,28 @@ console.log(`My name in lower case is ${lowerCaseName}`);
 let substringResult = fullName.substring (1, 5);
 console.log(substringResult);
 
+// Operatori de atribuire
+
+let x = 5; 
+let y = 5;
+let z = 5;
+let w = 5;
+
+x += 3;
+console.log(x);
+// x = x +3; x = 5+3 => 8
+
+y -= 2;
+console.log(y);
+// y = y-2; y = 5-2 => 3
+
+z *= 3;
+console.log(z);
+// z = z * 3; z = 5 * 3 => 15
+
+w /= 2;
+console.log(w);
+// w = w / 2; w = 5 / 2 => 2.5
+
+
+
