@@ -23,3 +23,19 @@ console.log(years);
 age= 36;
 console.log(age);
 console.log(`My age is ${age}`);
+
+// Tipuri de date
+// Number = 1, 2, 3 etc
+// let age = 30;
+// String= text
+// o var poate sa contina stringuri
+
+let firstName = "Cristina";
+console.log(firstName);
+console.log(`name:`);
+console.log(`My name is ${firstName}`);
+
+// Tipuri de date numerice: Number
+// Cu tipurile de date Number putem folosi operatii matematice
+
+
