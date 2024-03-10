@@ -203,11 +203,85 @@ let notInitialized;
 console.log(`notInitialized = ${notInitialized}`);
 
 // Adaugare + 1 la un numar (incrementare ++ a adaugar 1)
+// ++ inseamna adauga 1
 
 let x2 = 10;
 console.log("x=", x2);
 
 x2++;
 console.log("x=", x2);
+
+// Operatori de comparatie
+
+// Operatorul de egalitate ==
+// = este doar pentru atribuire; pt comparatii utilizam ==
+
+let value1 = 22;
+let value2 = 22;
+let value3 = 23;
+let value4 = "22";
+
+let firstComparedResult = value1 == value2;
+console.log(`${value1} == ${value2} => ${firstComparedResult}`);
+
+let secondComparedResult = value1 == value3;
+console.log(`${value1} == ${value3} => ${secondComparedResult}`);
+
+let thirdComparedResult = value1 == value4;
+console.log(`${value1} == ${value4} => ${thirdComparedResult}`); // face o conversie interna 22 number == 22 string; le face pe ambele string
+
+let forthComparedResult = value3 == value4;
+console.log(`${value3} == ${value4} => ${forthComparedResult}`);
+
+// comparatorul de egalitate stricta ===
+// date string === date de tip number => false
+// compara atat valoarea cat si tipul de date
+
+let strictEqualComaparison = value1 === value4;
+console.log(`${value1} === ${value4} => ${strictEqualComaparison}`);
+
+let strictEqualComaparison2 = value1 === value2;
+console.log(`${value1} === ${value2} => ${strictEqualComaparison2}`);
+
+let strictEqualComaparison3 = value1 === value3;
+console.log(`${value1} === ${value3} => ${strictEqualComaparison3}`);
+
+// comparatorul de mai mic (<) si mai mic sau egal (<=)
+
+let num1 = 5;
+let num2 = 6;
+let num3 = 5;
+
+let lessThanComparison = num1 < num2;
+console.log(`${num1} < ${num2} => ${lessThanComparison}`);
+
+let lessThanComparison1 = num2 < num3;
+console.log(`${num2} < ${num3} => ${lessThanComparison1}`);
+
+let lessOrEqualComparison = num1 <= num2;
+console.log(`${num1} <= ${num2} => ${lessThanComparison}`);
+
+let lessOrEqualComparison1 = num2 <= num3;
+console.log(`${num2} <= ${num3} => ${lessOrEqualComparison1}`);
+
+// comparatorul de mai mare (>) si mai mare sau egal (>=)
+
+let greaterThanComparison = num1 > num2;
+console.log(`${num1} > ${num2} => ${greaterThanComparison}`);
+
+let greaterThanComparison1 = num2 > num3;
+console.log(`${num2} > ${num3} => ${greaterThanComparison1}`);
+
+let greaterOrEqualComparison = num1 >= num2;
+console.log(`${num1} >= ${num2} => ${greaterOrEqualComparison}`);
+
+let greaterOrEqualComparison1 = num2 >= num3;
+console.log(`${num2} >= ${num3} => ${greaterOrEqualComparison1}`);
+
+
+
+
+
+
 
 
