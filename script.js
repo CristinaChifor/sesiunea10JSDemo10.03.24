@@ -70,3 +70,13 @@ let multiplication = numberA * numberB;
 console.log(multiplication);
 console.log(`Rezultatul inmultirii dintre ${numberA} si ${numberB} => ${multiplication}`);
 
+// Divison /
+
+let numberC = 10;
+let numberD = 35;
+let division = numberC / numberD;
+console.log(division);
+console.log(`Rezultatul impartirii lui ${numberC} la ${numberD} este egal cu ${division}`);
+let division2 = numberD / numberC;
+console.log(division2);
+console.log(`Rezultatul impartirii lui ${numberD} la ${numberC} este egal cu ${division2}`);
