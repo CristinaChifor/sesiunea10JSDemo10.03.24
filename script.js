@@ -17,7 +17,7 @@ let age = 30;
 console.log(age);
 console.log(`My age is ${age}`);
 
-let years = 5;
+let years = 10;
 console.log(years);
 
 age= 36;
@@ -54,7 +54,12 @@ let sum = firstNumber + secondNumber;
 console.log(sum);
 console.log(`Rezultatul sumei dintre ${firstNumber} si ${secondNumber} este ${sum}`);
 
+// Substraction -
 
+let pastAge= age - years;
+console.log(pastAge);
+console.log(`Acum ${years} ani aveam varsta de ${pastAge}`);
+console.log(`Acum ${years} ani aveam varsta de ${age - years}`);
 
 
 
